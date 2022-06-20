@@ -13,8 +13,10 @@ public class PrimeNumber {
 		{
 			if (n % i == 0)
 				return false;
+		
 		}
-		return true;
+
+	   return true;
 	}
 
 	public static void main(String[] args)
@@ -23,10 +25,10 @@ public class PrimeNumber {
         System.out.println("Enter a Number: ");
         int input=scan.nextInt();
 
-		if (isPrime(input)){
-			System.out.println(input +" is a Prime Number.");
+	if (isPrime(input)){
+		System.out.println(input +" is a Prime Number.");
         }else
-		 	System.out.println(input+" is not a Prime Number.");
+		 System.out.println(input+" is not a Prime Number.");
 	      
     }
 }
