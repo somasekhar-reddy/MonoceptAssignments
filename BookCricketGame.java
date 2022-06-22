@@ -13,6 +13,7 @@ public class BookCricketGame{
         System.out.println("4. Player 2 starts the game and tries to beat the score of player 1");
         System.out.println("5. In case of a tie, check the number of turns(player with lesser turns is winner)");
         System.out.println("6. Show the winner of the game.");
+        while(true){
         System.out.print("Enter 1 to Start Game And 0 for Exit: ");
         int decision=scan.nextInt();
 
@@ -84,6 +85,7 @@ public class BookCricketGame{
                System.out.println(player1+" won the Match By "+(score1-score2)+" Points.");
               else 
                 System.out.println(player2+" won the Match By "+(score2-score1)+" Points.");
+        }
         }
     } 
 }
