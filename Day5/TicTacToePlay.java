@@ -20,7 +20,7 @@ public class TicTacToePlay {
 			flag = obj.validationCellPoint(chartBoard, row, col);
 			if (flag) {
 				chartBoard[row][col] = playerNo;
-				if (obj.validationPlayer(chartBoard, (short) 1)) {
+				if (obj.validationPlayer(chartBoard, playerNo)) {
 					System.out.println(" Player \'" + playerName + "\' won the match ");
 					return true;
 				}
